@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Case-Converter</title>
+  </head>
+  <body>
+  <div class="heading">
+ <h1>aA Text Case Converter</h1>
+</div>
+
+  <form name="myForm">
+
+    <input class="str" type="text" name="myString" placeholder="Enter text to convert !">
+    <input class="btn" type="button" name="button" onclick="convertCase('upper')" value="Convert to UPPER-CASE">
+    <input class="btn" type="button" name="button" onclick="convertCase('lower')" value="Convert to lower-Case">
+
+
+  </form>
+
+  <script>
+
+  function convertCase(changeCase) {
+    if(changeCase == "upper")
+    {
+      document.myForm.myString.value = document.myForm.myString.value.toUpperCase()
+    }
+    else
+    {
+      document.myForm.myString.value = document.myForm.myString.value.toLowerCase()
+
+    }
+  }
+
+  </script>
+  </body>
+</html>

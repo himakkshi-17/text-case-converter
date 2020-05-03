@@ -1,0 +1,43 @@
+body{
+  background-image: url(bg.jpg);
+  background-size: cover;
+  /* opacity: 0.8; */
+}
+.heading{
+position: relative;
+margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  border: 8px solid black;
+  border-radius: 20px;
+  width: 400px;
+  margin: 50px auto;
+ align-items: center;
+ color: black;
+ background-color: #FFDB58;
+
+}
+.str{
+ text-align: justify;
+ width: 96% ;
+ height: 200px;
+ font-size: 30px;
+ margin: 40px auto;
+ /* margin-bottom: 60px; */
+ border-radius: 20px;
+ border: 8px solid black;
+ padding: 20px;
+}
+
+.btn{
+  position: center;
+  width: 360px;
+  height: 80px;
+  font-size: 24px;
+  margin: 50px auto;
+  border: 8px solid black;
+  border-radius: 20px;
+  background-color: #ff0000;
+}
